@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{b4ebfdac-93ee-4c20-84a3-8c1e3390ffea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1c143d8d-c486-4feb-9744-324ec9ea7510}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMgrScript.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSaveLoadMgr.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileMgrScript.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCarScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonUIScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CGravityScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CAliceScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameCameraScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CWKnifeScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoveScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkirtScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrailScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CHPScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CEquipScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CTeapotCannonScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCannonBallScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CDistortionScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterSpawnScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoorScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrinderScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntMiniScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CGruntScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CBodyScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CCardScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMouseScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CScoreScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuyScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CShrinkScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CJumpPadScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirLightScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CUpgradeTextScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CFadeScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CSaveLoadMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileMgrScript.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCarScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonUIScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CGravityScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CAliceScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameCameraScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CWKnifeScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoveScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkirtScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrailScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CHPScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CEquipScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulletScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CTeapotCannonScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCannonBallScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CDistortionScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterSpawnScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoorScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrinderScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntMiniScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CGruntScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CBodyScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CCardScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMouseScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CScoreScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuyScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CShrinkScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CJumpPadScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirLightScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CUpgradeTextScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CFadeScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Scripts.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

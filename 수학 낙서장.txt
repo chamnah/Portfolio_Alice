@@ -1,0 +1,54 @@
+P = (cos(a + b), sin(a + b))
+
+Q = (cosb,sinb)
+
+Px = cosa ' cosb - sina ' sinb = cosa ' Qx - sina ' Qy
+
+Py = sina ' cosb + cosa ' sinb = sina ' Qx + cosa' Qy
+
+
+
+( Qx , Qy 0 )   cosa , sina   0
+	      -sina,  cosa  0
+                    0      0     1
+
+역행렬
+
+M ' M^-1  = I (단위 행렬)
+
+M ' A = B
+
+(M^-1) ' B = A 
+
+P = (cos(a + b), sin(a + b))    z , x
+
+Q = (cosb,sinb)                  z , x
+
+Pz = cosa ' cosb - sina ' sinb = cosa ' Qz - sina ' Qx
+
+Px = sina ' cosb + cosa ' sinb = sina ' Qz + cosa' Qx
+
+(Qx  0  Qz)     cosa   0   -sina                                    Px  0   Pz 
+	        0 	   0     0		
+	      sina    0     cosa
+
+
+2n / r - 1 	0   		0   		0
+0                2n / t - b                   0   		0
+r+l / r - l       t+b / t - b              -(f + n / f - n) 	-1
+0		0	         -(2fn / f - n)	0
+
+여기에서 t랑 b가 같고 r 과 l이 같기 때문에 빼주면 0이 된다
+
+2n / r - 1 	0   		0   		0
+0                2n / t - b                   0   		0
+0       		0              -(f + n / f - n) 	-1
+0		0	         -(2fn / f - n)	0
+
+x / z  = x' / 1
+
+투영행렬을 4차 벡터를 만들고 바로 투영좌표계로 이동 시키지 않은 이유는
+
+투영행렬로 투영 좌표계로 변환하려면 각 삼각비에 비율을 이용해서 변환을 하는데 모든 정점마다 그 비율이 다르다 그래서 하려면 정점 갯수마다 행렬을 셋팅해야하는 참사가 발생 될수 있다.
+
+그래서 gpu에서는 그 비율을 이용하기 위해 w에다가 view스페이스에서 z 깊이값을 넣어서 보낸다.

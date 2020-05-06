@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{2b19bb2a-a10a-47b2-838e-84c99b5a9b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{ad65d5cb-a928-4e0f-a62f-08362598deeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{7657bba1-b994-4024-81ed-1562e6e086d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{44adb8db-d494-4146-97c3-3b6a7baaa6d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{f5c8c4a2-c681-4a27-a3f3-e9c10542a10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{0c9a313e-3dd7-4e12-be4c-03a1d61528b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineScript">
+      <UniqueIdentifier>{fd209bb3-dc82-44f3-b0e8-c2093cfbf41c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{9f23b460-e71d-4f23-b32a-9555fb9407ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CParent.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObj.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransForm.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CRes.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CMesh.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirect.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCore.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CShader.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshRender.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CResMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CConstBuffer.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CPtr.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CShaderMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CLayer.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CScript.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CPrefab.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaterial.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlendState.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderMgr.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator2D.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation2D.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrid.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CIncident.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CDepthStencilState.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="CLight.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrustum.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CRT.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CMRT.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CFilterCom.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeferredScript.h">
+      <Filter>EngineScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CTerrain.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CFBXLoader.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshData.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstBuffer.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator3D.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation3D.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CText.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CParent.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObj.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransForm.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CRes.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirect.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCore.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CShader.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshRender.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CResMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CConstBuffer.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CPtr.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CShaderMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CLayer.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CScript.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CPrefab.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaterial.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlendState.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderMgr.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CMesh.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator2D.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation2D.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrid.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CIncident.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CDepthStencilState.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="CLight.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrustum.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CRT.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CMRT.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CFilterCom.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeferredScript.cpp">
+      <Filter>EngineScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CTerrain.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CFBXLoader.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshData.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CInstBuffer.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator3D.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation3D.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CText.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="std.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="value.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="sun.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="light.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="deferred.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="tess.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="particle.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="compute.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="posteffect.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="land.fx">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleMath.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

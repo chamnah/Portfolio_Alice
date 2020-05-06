@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{7973ed46-c392-4979-9624-8997de12ac68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{aa3b6b4f-cc58-4025-8f79-734dc57f3891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{f3e99710-b16b-44a2-b390-3faf043333ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{9ce26c9d-6401-4e40-8cc1-346e24c9cc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dlg">
+      <UniqueIdentifier>{06fe08dd-1eeb-4d0d-93f3-e8917fd66f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\Dock">
+      <UniqueIdentifier>{25bdd3cb-b0a8-4daa-916a-30d21c888593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dlg\TreeDlg">
+      <UniqueIdentifier>{9a0a0202-8880-4e3a-bb0b-b4b7e5f42ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{df3738f1-a1e9-40ef-ae4e-30b7f8fa11ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{d3106002-7712-4fb2-b62c-463bdca41ca3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="CMySplitterWnd.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponentView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransformDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CBtnView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="CDbgView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponentDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshRenderDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgList.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CComView.h">
+      <Filter>View\Dock</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CColliderDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimView.h">
+      <Filter>View\Dock</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimatorDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CDockView.h">
+      <Filter>View\Dock</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddAnim.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddComponentDlg.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CHierachyView.h">
+      <Filter>View\Dock</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileSize.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CGridDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CTestMgr.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CManageDlg.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CLayerDlg.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CHierarchyDlg.h">
+      <Filter>Dlg\TreeDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CResDlg.h">
+      <Filter>Dlg\TreeDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CTreeDlg.h">
+      <Filter>Dlg\TreeDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CIncidentDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CLightDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CPaintDlg.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CGizmoScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CTerrainDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CWBrushDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CHBrushDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator3DDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CFilterComDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="CMySplitterWnd.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponentView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransformDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CBtnView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="CDbgView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponentDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshRenderDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgList.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CComView.cpp">
+      <Filter>View\Dock</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CColliderDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimView.cpp">
+      <Filter>View\Dock</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimatorDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CDockView.cpp">
+      <Filter>View\Dock</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimationDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddAnim.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddComponentDlg.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CHierachyView.cpp">
+      <Filter>View\Dock</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileSize.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CGridDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CTestMgr.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CManageDlg.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CLayerDlg.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CHierarchyDlg.cpp">
+      <Filter>Dlg\TreeDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CResDlg.cpp">
+      <Filter>Dlg\TreeDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CTreeDlg.cpp">
+      <Filter>Dlg\TreeDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CIncidentDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CLightDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CPaintDlg.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CGizmoScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CTerrainDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CWBrushDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CHBrushDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator3DDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CFilterComDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="cpp.hint" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\check.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\check-mark-7-256.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\check-mark-7-32.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\check-mark-3-256.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\check-mark-3-256.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Game_Release\content\Texture\aaa.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Game_Release\content\Texture\Brush_01.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Game_Release\content\Texture\Brush_02.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\EngineGit\Choi\Game_Release\content\Texture\aaa.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\EngineGit\Choi\Game_Release\content\Texture\Brush_01.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\EngineGit\Choi\Game_Release\content\Texture\Brush_02.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
